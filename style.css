@@ -116,6 +116,11 @@
 .bg_blue {
   background-color: #b4d0e7;
 }
+.btn_primary {
+  background-color: #0061ff;
+  padding: 0.4rem 1rem;
+  border: none;
+}
 /******************
  header 
  *****************/
@@ -135,7 +140,7 @@
 
 .logo {
   vertical-align: middle;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 .site_header ul {
   display: inline;
@@ -144,15 +149,20 @@
 .site_header li {
   display: inline-block;
   list-style: none;
-  padding-right: 1rem;
+  padding-right: 2rem;
 }
-.site_header li > a {
+.site_header a {
   text-decoration: none;
   color: black;
+  font-weight: 600;
 }
 .right_menu {
-  text-align: right;
-  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 2rem;
+}
+.btn_primary a {
+  color: white;
 }
 
 /*****************
@@ -163,9 +173,42 @@
 }
 .title > h1 {
   font-size: 5rem;
+  padding-top: 5rem;
+}
+.container {
+  margin-top: 3rem;
+  position: relative;
+}
+.posto,
+.proposta {
+  float: left;
+  width: 30%;
 }
 .posto {
-  width: 30%;
+  padding-right: 1rem;
+}
+.posto p {
+  font-weight: 600;
+}
+.button_prova {
+  margin: 2rem 0 1rem;
+  padding: 0.5rem 1rem;
+}
+.arrow_down {
+  padding-bottom: 5rem;
+}
+.fas {
+  font-size: 3rem;
+  padding: 3rem 0;
+}
+.proposta {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.img_prop {
+  width: 100%;
 }
 .professional,
 .standard,
