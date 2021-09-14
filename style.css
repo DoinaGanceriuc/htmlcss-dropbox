@@ -77,6 +77,18 @@
   height: 550px;
   background-color: lavender;
 }
+.debug footer {
+  height: 600px;
+  background-color: #000000;
+}
+.debug .dropbox {
+  height: 500px;
+  background-color: mediumpurple;
+}
+.debug .language {
+  height: 100px;
+  background-color: mistyrose;
+}
 /* utility */
 .clearfix::after {
   content: "";
@@ -114,3 +126,7 @@
   width: 50%;
 }
 /* footer */
+.dropbox {
+  float: left;
+  width: 20%;
+}
