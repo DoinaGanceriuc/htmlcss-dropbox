@@ -17,11 +17,51 @@
   background-color: lightpink;
   height: 200px;
 }
+.debug .jumbo {
+  height: 500px;
+  background-color: #b4d0e7;
+}
+.debug .title {
+  height: 500px;
+  background-color: darkslategray;
+}
+.debug .business {
+  height: 800px;
+  background-color: lightseagreen;
+}
+.debug .piano {
+  height: 800px;
+  background-color: bisque;
+}
+.debug .partner {
+  height: 400px;
+  background-color: deepskyblue;
+}
+.debug .solution {
+  height: 400px;
+  background-color: darkturquoise;
+}
+.debug .img_1 {
+  height: 400px;
+  background-color: blueviolet;
+}
+.debug .partner_title {
+  height: 400px;
+  background-color: darkmagenta;
+}
 /* utility */
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
+}
+.container_large {
+  width: 80%;
+  margin: auto;
+}
+.container_small {
+  width: 60%;
+  margin: auto;
 }
 /* header */
 .logo,
@@ -30,4 +70,14 @@
   width: 50%;
 }
 /* main */
+.img_1,
+.partner_title {
+  float: left;
+}
+.img_1 {
+  width: 60%;
+}
+.partner_title {
+  width: 40%;
+}
 /* footer */
