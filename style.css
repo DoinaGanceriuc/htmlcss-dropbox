@@ -106,7 +106,7 @@
   clear: both;
 }
 .container_large {
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 .container_small {
@@ -151,7 +151,7 @@
   list-style: none;
   padding-right: 2rem;
 }
-.site_header a {
+.site_header li a {
   text-decoration: none;
   color: black;
   font-weight: 600;
@@ -163,6 +163,7 @@
 }
 .btn_primary a {
   color: white;
+  text-decoration: none;
 }
 
 /*****************
@@ -173,7 +174,9 @@
 }
 .title > h1 {
   font-size: 5rem;
-  padding-top: 5rem;
+}
+.title {
+  padding: 5rem 2rem;
 }
 .container {
   margin-top: 3rem;
@@ -185,18 +188,20 @@
   width: 30%;
 }
 .posto {
-  padding-right: 1rem;
+  padding-right: 2rem;
 }
 .posto p {
   font-weight: 600;
 }
 .button_prova {
   margin: 2rem 0 1rem;
-  padding: 0.5rem 1rem;
 }
-.arrow_down {
+.button_prova a {
+  font-size: 0.9rem;
+}
+/* .arrow_down {
   padding-bottom: 5rem;
-}
+} */
 .fas {
   font-size: 3rem;
   padding: 3rem 0;
