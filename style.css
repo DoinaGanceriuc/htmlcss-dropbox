@@ -4,3 +4,30 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+/* debug */
+.debug header {
+  background-color: lightgray;
+  height: 200px;
+}
+.debug .logo {
+  background-color: lightgreen;
+  height: 200px;
+}
+.debug .access {
+  background-color: lightpink;
+  height: 200px;
+}
+/* utility */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* header */
+.logo,
+.access {
+  float: left;
+  width: 50%;
+}
+/* main */
+/* footer */
