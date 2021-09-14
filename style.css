@@ -9,11 +9,11 @@
   background-color: lightgray;
   height: 200px;
 }
-.debug .logo {
+.debug .left_menu {
   background-color: lightgreen;
   height: 200px;
 }
-.debug .access {
+.debug .right_menu {
   background-color: lightpink;
   height: 200px;
 }
@@ -32,6 +32,16 @@
 .debug .piano {
   height: 800px;
   background-color: bisque;
+}
+.debug .professional,
+.debug .standard,
+.debug .advanced {
+  height: 600px;
+  background-color: navy;
+}
+.debug .enterprise {
+  height: 200px;
+  background-color: olive;
 }
 .debug .partner {
   height: 400px;
@@ -103,13 +113,54 @@
   width: 60%;
   margin: auto;
 }
-/* header */
-.logo,
-.access {
-  float: left;
+/******************
+ header 
+ *****************/
+.site_header {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.left_menu,
+.right_menu {
+  display: inline-block;
+}
+
+.logo {
+  vertical-align: middle;
+  padding: 0 1rem;
+}
+.site_header ul {
+  display: inline;
+  vertical-align: middle;
+}
+.site_header li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 1rem;
+}
+.site_header li > a {
+  text-decoration: none;
+  color: black;
+}
+.right_menu {
+  text-align: right;
   width: 50%;
 }
-/* main */
+
+/*****************
+ main 
+ ****************/
+.professional,
+.standard,
+.advanced {
+  float: left;
+  width: 33.33%;
+}
 .img_1,
 .partner_title {
   float: left;
@@ -125,7 +176,9 @@
   float: left;
   width: 50%;
 }
-/* footer */
+/*****************
+ footer
+ ****************/
 .dropbox {
   float: left;
   width: 20%;
