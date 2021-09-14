@@ -49,6 +49,34 @@
   height: 400px;
   background-color: darkmagenta;
 }
+.debug .strumenti {
+  height: 500px;
+  background-color: darkorange;
+}
+.debug .clienti {
+  height: 200px;
+  background-color: darkred;
+}
+.debug .designit {
+  height: 450px;
+  background-color: grey;
+}
+.debug .azienda {
+  height: 200px;
+  background-color: #b4d0e7;
+}
+.debug .title_azienda {
+  height: 200px;
+  background-color: hotpink;
+}
+.debug .btn_prova {
+  height: 200px;
+  background-color: indianred;
+}
+.debug .domande {
+  height: 550px;
+  background-color: lavender;
+}
 /* utility */
 .clearfix::after {
   content: "";
@@ -79,5 +107,10 @@
 }
 .partner_title {
   width: 40%;
+}
+.title_azienda,
+.btn_prova {
+  float: left;
+  width: 50%;
 }
 /* footer */
