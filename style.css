@@ -148,7 +148,7 @@ section {
   padding: 2rem;
 }
 .pad_tb {
-  padding: 2rem 0;
+  padding: 2rem 0 5rem;
 }
 .pad_top_tre {
   padding-top: 3rem;
@@ -169,6 +169,9 @@ section {
 }
 .img_w100 {
   width: 100%;
+}
+.mdx_sx {
+  margin: 0 5%;
 }
 /******************
  header 
