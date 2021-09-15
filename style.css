@@ -149,7 +149,14 @@
 .pad_bot_zero {
   padding-bottom: 0rem;
 }
-
+.top {
+  vertical-align: top;
+}
+.funzioni {
+  display: inline-block;
+  width: 90%;
+  padding: 0;
+}
 /******************
  header 
  *****************/
@@ -328,6 +335,9 @@ li.prezzo {
 li.mese {
   padding-bottom: 2rem;
   color: #7e8b96;
+}
+.info_prof li.funzioni {
+  padding: 0;
 }
 .button_giorni {
   width: 100%;
