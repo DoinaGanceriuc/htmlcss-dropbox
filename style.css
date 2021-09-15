@@ -128,6 +128,15 @@
   padding: 0.4rem 1rem;
   border: none;
 }
+.btn_light {
+  background-color: white;
+  padding: 0.4rem 1rem;
+  border: 1px solid black;
+}
+.btn_light a {
+  text-decoration: none;
+  color: black;
+}
 .pad_com {
   padding: 2rem;
 }
@@ -288,6 +297,9 @@
 .group h4 {
   font-weight: normal;
 }
+.info_prof {
+  height: 1000px;
+}
 
 .info_prof h3 {
   font-size: 1.5rem;
@@ -334,7 +346,7 @@ i.fas.fa-check,
   margin: 0 5%;
 }
 .enterprise {
-  margin-top: 3rem;
+  margin: 3rem 0 5rem;
 }
 .vendite {
   position: relative;
@@ -351,8 +363,21 @@ i.fas.fa-check,
 .img_1 {
   width: 60%;
 }
+.men {
+  width: 100%;
+}
 .partner_title {
   width: 40%;
+}
+.contatto {
+  padding: 3rem;
+}
+.contatto h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.contatto p {
+  padding: 1rem 0;
 }
 .title_azienda,
 .btn_prova {
