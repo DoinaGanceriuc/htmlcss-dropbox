@@ -127,6 +127,10 @@ section {
   float: left;
   width: 33.33%;
 }
+.col_40 {
+  float: left;
+  width: 40%;
+}
 .bg_blue {
   background-color: #b4d0e7;
 }
@@ -172,6 +176,29 @@ section {
 }
 .mdx_sx {
   margin: 0 5%;
+}
+.title_h2 {
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+}
+.color_text {
+  color: #0d69ff;
+}
+.w25 {
+  width: 25%;
+}
+.white_logo {
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.colors {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  position: relative;
 }
 /******************
  header 
@@ -303,11 +330,7 @@ section {
   left: 0;
   border: 1px solid #ebebec;
 }
-.piano h2,
-.strumenti h2 {
-  font-size: 2.5rem;
-  padding-bottom: 3rem;
-}
+
 /* .type_plans {
   padding-top: 3rem;
 } */
