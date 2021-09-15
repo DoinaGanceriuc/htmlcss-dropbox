@@ -293,11 +293,12 @@
   font-size: 1.5rem;
   font-weight: 800;
 }
-.info_prof.pad_com {
+.info_prof.pad_com,
+.vendite.pad_com {
   border-top: none;
 }
-.info_prof {
-  border-top: none;
+.info_prof,
+.vendite {
   border: 1px solid #ebebec;
 }
 .info_prof li {
@@ -329,17 +330,24 @@ i.fas.fa-check,
 .acquista {
   color: #0967ff;
 }
-
-/* professional,
-.standard,
-.advanced {
-  float: left;
-  width: 30%;
-} */
-/* .img_1,
-.partner_title {
-  float: left;
-} */
+.standard {
+  margin: 0 5%;
+}
+.enterprise {
+  margin-top: 3rem;
+}
+.vendite {
+  position: relative;
+}
+.vendite h4 {
+  padding: 1rem 0 2rem;
+}
+.button_ufficio {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  padding: 0.5rem 5rem;
+}
 .img_1 {
   width: 60%;
 }
