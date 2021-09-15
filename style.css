@@ -110,8 +110,15 @@
   margin: auto;
 }
 .container_small {
-  width: 60%;
+  width: 70%;
   margin: auto;
+}
+.f_left {
+  float: left;
+}
+.col_30 {
+  float: left;
+  width: 30%;
 }
 .bg_blue {
   background-color: #b4d0e7;
@@ -121,6 +128,19 @@
   padding: 0.4rem 1rem;
   border: none;
 }
+.pad_com {
+  padding: 2rem;
+}
+.pad_top_tre {
+  padding-top: 3rem;
+}
+.pad_bot_due {
+  padding-bottom: 2rem;
+}
+.pad_bot_zero {
+  padding-bottom: 0rem;
+}
+
 /******************
  header 
  *****************/
@@ -132,15 +152,17 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 .left_menu,
 .right_menu {
-  display: inline-block;
+  position: absolute;
+  top: 0;
 }
 
 .logo {
   vertical-align: middle;
-  padding: 0 2rem;
+  padding-right: 2rem;
 }
 .site_header ul {
   display: inline;
@@ -157,9 +179,10 @@
   font-weight: 600;
 }
 .right_menu {
-  position: absolute;
-  top: 0;
   right: 2rem;
+}
+.left_menu {
+  left: 2rem;
 }
 .btn_primary a {
   color: white;
@@ -176,17 +199,17 @@
   font-size: 5rem;
 }
 .title {
-  padding: 5rem 2rem;
+  padding: 5rem 1rem 10rem;
 }
 .container {
   margin-top: 3rem;
   position: relative;
 }
-.posto,
+/* .posto,
 .proposta {
   float: left;
   width: 30%;
-}
+} */
 .posto {
   padding-right: 2rem;
 }
@@ -202,7 +225,7 @@
 /* .arrow_down {
   padding-bottom: 5rem;
 } */
-.fas {
+.arrow_down .fas {
   font-size: 3rem;
   padding: 3rem 0;
 }
@@ -215,16 +238,108 @@
 .img_prop {
   width: 100%;
 }
-.professional,
+.business {
+  margin-top: 200px;
+}
+.radio_mensile,
+.radio_annuale {
+  display: inline-block;
+  position: relative;
+  padding-right: 1rem;
+}
+
+.radio_mensile li,
+.radio_annuale li {
+  list-style: none;
+  padding-left: 1.5rem;
+}
+.fattura {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 5px solid #0061ff;
+}
+.annuale {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #ebebec;
+}
+.piano h2 {
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+}
+/* .type_plans {
+  padding-top: 3rem;
+} */
+.group {
+  border: 1px solid #ebebec;
+  text-align: center;
+  padding: 0.5rem;
+}
+.group h4 {
+  font-weight: normal;
+}
+
+.info_prof h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.info_prof.pad_com {
+  border-top: none;
+}
+.info_prof {
+  border-top: none;
+  border: 1px solid #ebebec;
+}
+.info_prof li {
+  list-style: none;
+  padding: 1rem 0;
+}
+.info_prof h4 {
+  padding: 3rem 0rem 1rem;
+  font-weight: 800;
+}
+li.prezzo {
+  padding-bottom: 0;
+  font-weight: 600;
+}
+li.mese {
+  padding-bottom: 2rem;
+  color: #7e8b96;
+}
+.button_giorni {
+  width: 100%;
+  margin: 2rem 0;
+}
+.oppure {
+  display: inline-block;
+  border-bottom: 1px solid #ebebec;
+  padding-bottom: 2rem;
+}
+i.fas.fa-check,
+.acquista {
+  color: #0967ff;
+}
+
+/* professional,
 .standard,
 .advanced {
   float: left;
-  width: 33.33%;
-}
-.img_1,
+  width: 30%;
+} */
+/* .img_1,
 .partner_title {
   float: left;
-}
+} */
 .img_1 {
   width: 60%;
 }
@@ -233,13 +348,11 @@
 }
 .title_azienda,
 .btn_prova {
-  float: left;
   width: 50%;
 }
 /*****************
  footer
  ****************/
 .dropbox {
-  float: left;
   width: 20%;
 }
