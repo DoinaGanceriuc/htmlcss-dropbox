@@ -100,6 +100,9 @@
   background-color: mistyrose;
 }
 /* utility */
+section {
+  margin-top: 200px;
+}
 .clearfix::after {
   content: "";
   display: table;
@@ -119,6 +122,10 @@
 .col_30 {
   float: left;
   width: 30%;
+}
+.col_33 {
+  float: left;
+  width: 33.33%;
 }
 .bg_blue {
   background-color: #b4d0e7;
@@ -140,6 +147,9 @@
 .pad_com {
   padding: 2rem;
 }
+.pad_tb {
+  padding: 2rem 0;
+}
 .pad_top_tre {
   padding-top: 3rem;
 }
@@ -156,6 +166,9 @@
   display: inline-block;
   width: 90%;
   padding: 0;
+}
+.img_w100 {
+  width: 100%;
 }
 /******************
  header 
@@ -229,7 +242,8 @@
 .posto {
   padding-right: 2rem;
 }
-.posto p {
+.posto p,
+.quotidiano p {
   font-weight: 600;
 }
 .button_prova {
@@ -251,12 +265,9 @@
   top: 0;
   right: 0;
 }
-.img_prop {
-  width: 100%;
-}
-.business {
+/* .business {
   margin-top: 200px;
-}
+} */
 .radio_mensile,
 .radio_annuale {
   display: inline-block;
@@ -289,7 +300,8 @@
   left: 0;
   border: 1px solid #ebebec;
 }
-.piano h2 {
+.piano h2,
+.strumenti h2 {
   font-size: 2.5rem;
   padding-bottom: 3rem;
 }
@@ -373,16 +385,15 @@ i.fas.fa-check,
 .img_1 {
   width: 60%;
 }
-.men {
-  width: 100%;
-}
+
 .partner_title {
   width: 40%;
 }
 .contatto {
   padding: 3rem;
 }
-.contatto h3 {
+.contatto h3,
+.quotidiano h3 {
   font-size: 1.5rem;
   font-weight: 800;
 }
