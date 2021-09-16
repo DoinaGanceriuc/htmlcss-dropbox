@@ -187,13 +187,6 @@ section {
 .w25 {
   width: 25%;
 }
-.white_logo {
-  height: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 .colors {
   height: 300px;
   width: 300px;
@@ -429,8 +422,14 @@ i.fas.fa-check,
 .clienti {
   padding-bottom: 3rem;
 }
+.square {
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
 .green {
   background-color: #a2d39b;
+  border: 10px solid #d0e9cd;
 }
 .deep_red {
   background-color: #61082b;
@@ -459,12 +458,15 @@ i.fas.fa-check,
   top: 0;
   right: 0;
 }
-.designit {
-  height: 200px;
-  width: 200px;
+.white_logo {
+  width: 100%;
   display: block;
   padding: 2rem;
   filter: invert(1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .green,
 .deep_red,
