@@ -440,8 +440,21 @@ i.fas.fa-check,
 .topps {
   background-color: #ff1c1c;
 }
+.relief {
+  background-color: #d5001f;
+}
+.hearst {
+  background-color: #b4d0e7;
+}
+.planet {
+  background-color: #0d2481;
+}
+.channel {
+  background-color: #ffd830;
+}
 .row {
   position: relative;
+  background-color: #f5f5f5;
 }
 .loghi {
   height: 400px;
@@ -452,6 +465,9 @@ i.fas.fa-check,
   position: absolute;
   top: 0;
   left: 30%;
+}
+.designid_logo {
+  height: 50px;
 }
 .loghi.right {
   position: absolute;
@@ -471,7 +487,11 @@ i.fas.fa-check,
 .green,
 .deep_red,
 .florida,
-.topps {
+.topps,
+.relief,
+.hearst,
+.planet,
+.channel {
   float: left;
 }
 
