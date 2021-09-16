@@ -157,6 +157,16 @@ section {
 .pad_tb {
   padding: 2rem 0 5rem;
 }
+.pad_bt {
+  padding: 1rem 0 2rem;
+}
+.pad_bt::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: red;
+}
 .pad_top_tre {
   padding-top: 3rem;
 }
@@ -524,7 +534,22 @@ i.fas.fa-check,
 }
 .free a {
   text-decoration: none;
-  color: #000000;
+  color: #1d1d1d;
+}
+.domande p,
+.risposta {
+  display: inline-block;
+}
+.borders {
+  border-top: 1px solid #ebebec;
+}
+.borders.last {
+  border-bottom: 1px solid #ebebec;
+}
+.domande p {
+  padding: 2rem 0;
+  font-weight: 600;
+  width: 95%;
 }
 /*****************
  footer
