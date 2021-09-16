@@ -231,7 +231,6 @@ section {
   float: left;
   width: 50%;
 }
-
 .logo {
   vertical-align: middle;
   padding-right: 2rem;
@@ -248,7 +247,6 @@ section {
 .site_header li a {
   text-decoration: none;
   color: black;
-  font-weight: 600;
 }
 .right_menu {
   padding-right: 2rem;
@@ -279,17 +277,8 @@ section {
   margin-top: 3rem;
   position: relative;
 }
-/* .posto,
-.proposta {
-  float: left;
-  width: 30%;
-} */
 .posto {
   padding-right: 2rem;
-}
-.posto p,
-.quotidiano p {
-  font-weight: 600;
 }
 .button_prova {
   margin: 2rem 0 1rem;
@@ -297,9 +286,6 @@ section {
 .button_prova a {
   font-size: 0.9rem;
 }
-/* .arrow_down {
-  padding-bottom: 5rem;
-} */
 .arrow_down .fas {
   font-size: 3rem;
   padding: 3rem 0;
@@ -310,31 +296,19 @@ section {
   top: 0;
   right: 0;
 }
-/* .business {
-  margin-top: 200px;
-} */
 .radio_mensile,
 .radio_annuale {
   display: inline-block;
   position: relative;
   padding-right: 1rem;
 }
-
+/* business */
 .radio_mensile li,
 .radio_annuale li {
   list-style: none;
   padding-left: 1.5rem;
 }
-.fattura {
-  height: 20px;
-  width: 20px;
-  background-color: white;
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 5px solid #0061ff;
-}
+.fattura,
 .annuale {
   height: 20px;
   width: 20px;
@@ -343,12 +317,13 @@ section {
   position: absolute;
   top: 0;
   left: 0;
+}
+.fattura {
+  border: 5px solid #0061ff;
+}
+.annuale {
   border: 1px solid #ebebec;
 }
-
-/* .type_plans {
-  padding-top: 3rem;
-} */
 .group {
   border: 1px solid #ebebec;
   text-align: center;
@@ -360,7 +335,6 @@ section {
 .info_prof {
   min-height: 1100px;
 }
-
 .info_prof h3 {
   font-size: 1.5rem;
   font-weight: 800;
@@ -420,10 +394,10 @@ i.fas.fa-check,
   right: 2rem;
   padding: 0.5rem 5rem;
 }
+/* partner */
 .img_1 {
   width: 60%;
 }
-
 .partner_title {
   width: 40%;
 }
@@ -442,6 +416,7 @@ section.team,
 section.questions {
   margin-top: 150px;
 }
+/* team */
 .clienti {
   padding-bottom: 3rem;
 }
@@ -450,11 +425,11 @@ section.questions {
   width: 200px;
   position: relative;
 }
-.green {
+.designit {
   background-color: #a2d39b;
   border: 10px solid #d0e9cd;
 }
-.deep_red {
+.arizona {
   background-color: #61082b;
 }
 .florida {
@@ -511,8 +486,8 @@ section.questions {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.green,
-.deep_red,
+.designit,
+.arizona,
 .florida,
 .topps,
 .relief,
@@ -521,14 +496,10 @@ section.questions {
 .channel {
   float: left;
 }
-
 .azienda {
   background-color: #b4d0e7;
   padding: 5rem 0;
 }
-/* .title_azienda {
-  width: 60%;
-} */
 .title_azienda .title_h2 {
   color: #61082b;
 }
@@ -550,6 +521,7 @@ section.questions {
   color: #1d1d1d;
   font-weight: 600;
 }
+/* questions */
 .domande p,
 .risposta {
   display: inline-block;
@@ -581,7 +553,6 @@ footer ul {
   list-style-type: none;
   color: white;
 }
-
 footer li {
   padding-bottom: 0.5rem;
 }
