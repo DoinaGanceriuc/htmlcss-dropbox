@@ -122,6 +122,10 @@ section {
 .f_left {
   float: left;
 }
+.col_20 {
+  float: left;
+  width: 20%;
+}
 .col_30 {
   float: left;
   width: 30%;
@@ -199,6 +203,9 @@ section {
 }
 .w25 {
   width: 25%;
+}
+.w60 {
+  width: 60%;
 }
 .colors {
   height: 300px;
@@ -349,7 +356,7 @@ section {
   font-weight: normal;
 }
 .info_prof {
-  height: 1000px;
+  min-height: 1100px;
 }
 
 .info_prof h3 {
@@ -366,22 +373,19 @@ section {
 }
 .info_prof li {
   list-style: none;
-  padding: 1rem 0;
+  padding: 0 0 2rem;
 }
 .info_prof h4 {
   padding: 3rem 0rem 1rem;
   font-weight: 800;
 }
 li.prezzo {
-  padding-bottom: 0;
+  padding: 1rem 0;
   font-weight: 600;
 }
 li.mese {
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   color: #7e8b96;
-}
-.info_prof li.funzioni {
-  padding: 0;
 }
 .button_giorni {
   width: 100%;
@@ -431,6 +435,10 @@ i.fas.fa-check,
 }
 .contatto p {
   padding: 1rem 0;
+}
+section.team,
+section.questions {
+  margin-top: 150px;
 }
 .clienti {
   padding-bottom: 3rem;
@@ -483,6 +491,17 @@ i.fas.fa-check,
 .designid_logo {
   height: 50px;
 }
+.termine {
+  padding-bottom: 3rem;
+}
+.termine::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #e4e4e6;
+  margin: 2rem 0;
+}
 .loghi.right {
   position: absolute;
   top: 0;
@@ -513,9 +532,9 @@ i.fas.fa-check,
   background-color: #b4d0e7;
   padding: 5rem 0;
 }
-.title_azienda {
+/* .title_azienda {
   width: 60%;
-}
+} */
 .title_azienda .title_h2 {
   color: #61082b;
 }
@@ -535,6 +554,7 @@ i.fas.fa-check,
 .free a {
   text-decoration: none;
   color: #1d1d1d;
+  font-weight: 600;
 }
 .domande p,
 .risposta {
@@ -554,6 +574,31 @@ i.fas.fa-check,
 /*****************
  footer
  ****************/
+footer {
+  background-color: black;
+  padding: 3rem;
+  margin-top: 200px;
+}
+footer h4 {
+  color: white;
+  padding-bottom: 2rem;
+}
+footer ul {
+  list-style-type: none;
+  color: white;
+}
+
+footer li {
+  padding-bottom: 0.5rem;
+}
+.languages {
+  color: #737373;
+}
+.language {
+  display: inline-block;
+  border-top: 1px solid #b8b8b8;
+  padding-top: 2rem;
+}
 .dropbox {
-  width: 20%;
+  padding-bottom: 5rem;
 }
