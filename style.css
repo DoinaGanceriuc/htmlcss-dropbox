@@ -426,6 +426,53 @@ i.fas.fa-check,
 .contatto p {
   padding: 1rem 0;
 }
+.clienti {
+  padding-bottom: 3rem;
+}
+.green {
+  background-color: #a2d39b;
+}
+.deep_red {
+  background-color: #61082b;
+}
+.florida {
+  background-color: #0093ce;
+}
+.topps {
+  background-color: #ff1c1c;
+}
+.row {
+  position: relative;
+}
+.loghi {
+  height: 400px;
+  width: 400px;
+}
+.text_designit {
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+.loghi.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.designit {
+  height: 200px;
+  width: 200px;
+  display: block;
+  padding: 2rem;
+  filter: invert(1);
+}
+.green,
+.deep_red,
+.florida,
+.topps {
+  float: left;
+}
+
 .title_azienda,
 .btn_prova {
   width: 50%;
