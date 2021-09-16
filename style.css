@@ -228,8 +228,8 @@ section {
 }
 .left_menu,
 .right_menu {
-  position: absolute;
-  top: 0;
+  float: left;
+  width: 50%;
 }
 
 .logo {
@@ -251,10 +251,11 @@ section {
   font-weight: 600;
 }
 .right_menu {
-  right: 2rem;
+  padding-right: 2rem;
+  text-align: right;
 }
 .left_menu {
-  left: 2rem;
+  padding-left: 2rem;
 }
 .btn_primary a {
   color: white;
