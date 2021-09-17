@@ -282,6 +282,13 @@ ul.menu_voices > li {
 li.support:hover ul.menu_voices {
   display: block;
 }
+li.border:hover::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
 
 /*****************
  main 
