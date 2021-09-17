@@ -259,6 +259,29 @@ section {
   color: white;
   text-decoration: none;
 }
+/* sottomenu voce support*/
+li.support {
+  position: relative;
+  cursor: pointer;
+}
+ul.menu_voices {
+  display: none;
+  line-height: normal;
+  background-color: white;
+  position: absolute;
+  top: 98px;
+  left: 0;
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid lightgrey;
+}
+ul.menu_voices > li {
+  display: block;
+  width: 14rem;
+}
+li.support:hover ul.menu_voices {
+  display: block;
+}
 
 /*****************
  main 
