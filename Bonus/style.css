@@ -570,6 +570,19 @@ section.questions {
   font-weight: 600;
   width: 95%;
 }
+p.answer {
+  display: none;
+  font-weight: normal;
+}
+p.answer a {
+  color: #000000;
+}
+.borders {
+  cursor: pointer;
+}
+.borders:hover p.answer {
+  display: block;
+}
 /*****************
  footer
  ****************/
