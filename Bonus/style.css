@@ -601,6 +601,10 @@ footer ul {
 }
 footer li {
   padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+footer li:hover {
+  text-decoration: underline;
 }
 .languages {
   color: #737373;
