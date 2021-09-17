@@ -583,6 +583,45 @@ p.answer a {
 .borders:hover p.answer {
   display: block;
 }
+/* why-dropbox */
+.reason .title_h2 {
+  width: 50%;
+}
+.filtro p,
+.filtro.risposta {
+  display: inline-block;
+}
+.filtro p {
+  width: 95%;
+  padding: 1rem;
+}
+.filtro {
+  border: 1px solid #ebebec;
+  width: 50%;
+}
+.white_squares {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid #ebebec;
+  margin: 1rem 1rem 1rem 0;
+}
+.white_squares_img {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.clienti {
+  width: calc(100% - 80px);
+}
+.carica {
+  text-align: center;
+}
 /*****************
  footer
  ****************/
